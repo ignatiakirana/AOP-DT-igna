@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+  background-image: linear-gradient(pink, skyblue, white);
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  cursor: url("tiger.cur"),auto;
+
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logoss {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoss img {
+    width: 55px;
+    height: auto;
+}
+
+.logoss h1 {
+    margin: 0;
+    animation: colorChange 5s infinite alternate;
+    text-shadow: 
+    0 0 5px rgb(0, 255, 98),
+    0 0 10px yellow;
+    0 0 15px pink;
+}
+
+@keyframes colorChange {
+    0% {color: skyblue}
+    50% {color: rgb(175, 39, 62)}
+    100% {color: rgb(255, 255, 255)}
+}
+
+.header h3{
+    margin-top: 5px;
+}
+
+footer{
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.folder {
+    margin:auto;
+    margin-top: 25px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space space-around;
+    max-width: 1000px;
+    gap: 10px
+}
+
+.photoalbum-1 {
+    width: 300px;
+    background-color: rgb(204, 221, 231);
+    -webkit-backdrop-filter: blur(50%);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(white, skyblue,pink);
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+}
+
+.pesannya{
+    background-color: white;
+    padding: 15px;
+    border-radius:5px;
+    background-color: rgb(204, 221, 231);
+    -webkit-backdrop-filter: blur(50%);
+    box-shadow: 0 2px 4px rgba(blue, pink, white);
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    text-align: center;
+    width:300px;
+}
+    
+
+audio {
+    width:90%;
+    max-width:500px;
+}
+
+h2{
+    margin-bottom: 5%;
+}
+
+p{
+    font-size: 75%;
+}
+

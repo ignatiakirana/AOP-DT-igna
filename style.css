@@ -8,7 +8,6 @@ body {
   background-image: linear-gradient(pink, skyblue, white);
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #000000;
   cursor: url("tiger.cur"),auto;
 
 }
@@ -113,5 +112,6 @@ h2{
 p{
     font-size: 75%;
 }
+
 
 

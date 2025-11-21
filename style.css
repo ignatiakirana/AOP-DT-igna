@@ -7,8 +7,6 @@
 body { 
   background-image: linear-gradient(pink, skyblue, white);
   text-align: center;
-  min-height: 100vh;
-  padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #000000;
   cursor: url("tiger.cur"),auto;
@@ -36,7 +34,7 @@ body {
     animation: colorChange 5s infinite alternate;
     text-shadow: 
     0 0 5px rgb(0, 255, 98),
-    0 0 10px yellow;
+    0 0 10px yellow,
     0 0 15px pink;
 }
 
@@ -46,8 +44,9 @@ body {
     100% {color: rgb(255, 255, 255)}
 }
 
-.header h3{
+.header h2{
     margin-top: 5px;
+    margin-bottom: 1px;
 }
 
 footer{
@@ -80,7 +79,6 @@ img {
 .photoalbum-1 {
     width: 300px;
     background-color: rgb(204, 221, 231);
-    -webkit-backdrop-filter: blur(50%);
     padding: 5px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(white, skyblue,pink);
@@ -94,7 +92,6 @@ img {
     padding: 15px;
     border-radius:5px;
     background-color: rgb(204, 221, 231);
-    -webkit-backdrop-filter: blur(50%);
     box-shadow: 0 2px 4px rgba(blue, pink, white);
     margin-left: auto;
     margin-right: auto;
@@ -116,4 +113,5 @@ h2{
 p{
     font-size: 75%;
 }
+
 
